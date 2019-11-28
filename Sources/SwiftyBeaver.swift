@@ -23,6 +23,8 @@ open class SwiftyBeaver {
         case warning = 3
         case error = 4
     }
+    
+    
 
     // a set of active destinations
     public private(set) static var destinations = Set<BaseDestination>()
